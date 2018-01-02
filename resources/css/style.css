@@ -1,15 +1,23 @@
 /* Universal */
 body {
   margin: 0;
+  padding: 0;
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
   opacity: 0.9;
+  width: 100%;
 }
 
 a {
   color: white;
+}
+
+h2, h4 {
+  margin: auto;
+  padding: 10px;
 }
 
 /* Header */
@@ -21,6 +29,7 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1;
   border-bottom: 1px solid seashell;
 }
 
@@ -38,4 +47,29 @@ header {
 
 .navigation span {
   margin: 15px;
+}
+
+/* Mission Content */
+
+.flex-container {
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bg-img {
+  background-image: url("../img/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+  background-color: black;
 }
