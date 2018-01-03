@@ -53,8 +53,6 @@ header {
 
 .flex-container {
   position: relative;
-  top: 70px;
-  width: 1200px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -64,6 +62,7 @@ header {
 .bg-img {
   background-image: url("../img/img-mission-background.jpg");
   height: 700px;
+  top: 70px;
   display: flex;
   justify-content: center;
 }
@@ -72,4 +71,19 @@ header {
   width: 100%;
   margin: auto;
   background-color: black;
+}
+
+/* Featured Tea */
+
+.boxes {
+  width: 300px;
+  height: 200px;
+  margin: 25px 10px;
+}
+
+.tea-headings {
+  width: 1000px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
 }
