@@ -53,7 +53,6 @@ header {
 
 .flex-container {
   position: relative;
-  margin: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -100,8 +99,17 @@ header {
 
 .location-background {
   background-image: url("../img/img-locations-background.jpg");
-  width: 1200px;
+  width: 1100px;
   height: 550px;
   display: flex;
   flex-direction: column;
+}
+
+#location h2 {
+  margin: 80px auto 0 auto;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
